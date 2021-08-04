@@ -1,0 +1,116 @@
+.title-card{
+    width: 880px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ECE6F2;
+    box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.titleName{
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.titleDesc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #5E4FA2;
+}
+
+.imageUrl{
+    height: 190px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.textBox{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.imageBox{
+    margin-top: 1.5%;
+    margin-right: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .title-card{
+        width: 440px;
+        height: 150px;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+    
+    .titleName{
+        font-family: 'Poppins', sans-serif;
+        color: #5E4FA2;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .titleDesc{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        color: #5E4FA2;
+    }
+    
+    .imageUrl{
+        height: 120px;
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .textBox{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .imageBox{
+        margin-top: 4%;
+        margin-right: 1%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .title-card{
+        width: 540px;
+        height: 160px;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+
+    .titleName{
+        font-family: 'Poppins', sans-serif;
+        color: #5E4FA2;
+        font-weight: 700;
+        font-size: 23px;
+    }
+    
+    .titleDesc{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: #5E4FA2;
+    }
+
+    .imageUrl{
+        height: 120px;
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .imageBox{
+        margin-top: 5%;
+        margin-right: 6%;
+    }
+
+}

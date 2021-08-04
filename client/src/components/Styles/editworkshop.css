@@ -1,0 +1,13 @@
+.editForm{
+    text-align: center;
+    margin: 0% 10%;
+    padding: 2% 0;
+    background-color: #ECE6F2;
+    border-radius: 20px;
+    box-shadow: 0px 9px 21px rgba(0, 0, 0, 0.16);
+}
+
+.clockImage{
+    width: auto;
+    height: 250px;
+}

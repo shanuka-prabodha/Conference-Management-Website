@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.primaryColor{
+    color: #5E4FA2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+/* Hero Section Styles */
+
+.fullElipse{
+    position: absolute ;
+    height : auto;
+}
+
+.pathStyle {
+    position: absolute;
+    top : 0;
+    right : 0;
+}
+
+.halfEStyle {
+    position: absolute;
+    bottom : 0;
+    left : 0;
+    height: 30%;
+    width: auto;
+}
+
+.imageStyle {
+    height : 75%;
+    width : auto ;
+    margin-left: 30%;
+}
+
+.h1Style {
+    color: #5E4FA2;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+}
+
+.pStyle  {
+    color: #5E4FA2;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+    z-index: -99;
+    font-size: 20px;
+}
+
+.heroStyle {
+    background-color: #f8f9fa;
+}
+
+.wholeRow  {
+    padding-top: 3%;
+}
+
+.wholeColumn {
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.hrStyle {
+    margin-bottom: 5%;
+    border: 5px solid #FEC949;
+}
+
+.confDetails{
+    width:260px;
+    height: 120px;
+    background-color: #ECE6F2;
+    border-radius: 15px;
+    z-index: 1;
+    
+}
+
+.ShadowL{
+    box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
+}
+
+.ShadowR{
+    box-shadow: 9px 9px 21px rgba(0, 0, 0, 0.16);
+}
+
+.Shadow{
+    box-shadow: 0px 9px 21px rgba(0, 0, 0, 0.16);
+}
+
+.confText{
+    font-family: 'Poppins', sans-serif;
+    width: 140px;
+    text-align: center;
+    color: #5E4FA2;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Card Section */
+.cardTitle{
+    color: #5E4FA2;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.keynotePath {
+    position: absolute;
+    right: 0;
+    bottom: -50%;
+    width: 15%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .imageStyle {
+        height : 50%;
+        width : auto ;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .h1Style {
+        font-size: 40px;
+    }
+    .pStyle  {
+        color: #5E4FA2;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 5%;
+        z-index: -99;
+        font-size: 18px;
+    }
+
+    .confDetails{
+        transform: scale(0.6);
+        background-color: #ECE6F2;
+        border-radius: 15px;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .keynotePath {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 50px;
+        display: none;
+    }
+
+    .rightCard{
+        margin-top: 5%;
+    }
+    
+
+}
